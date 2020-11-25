@@ -647,6 +647,15 @@ sharkd_session_process_info(void)
  *
  * Dump the pcap from url
  *
+ * Input: 
+ * url - the url name
+ *
+ * Output: 
+ * new_file - the new file name associated with pcap
+ *
+ * Return:
+ * 0 (success) -1 (error)
+ *
  */
 #define FILENAME_LEN 1000
 int
